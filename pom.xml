@@ -25,6 +25,8 @@
     </properties>
 
     <dependencies>
+             
+         
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -48,6 +50,16 @@
         </dependency>
 
     </dependencies>
+         <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://192.168.56.103:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://192.168.56.103:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <build>
 
